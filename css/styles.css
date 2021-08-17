@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.8rem;
+	font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+	background-color: hsl(224, 100%, 92%);
+	height: 100vh;
+	position: relative;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.color {
+	color: hsl(225, 100%, 94%);
+	color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	color: hsl(224, 23%, 55%);
+	color: hsl(223, 47%, 23%);
+}
+
+.container {
+	width: 95%;
+	max-width: 38rem;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.order__summary {
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+}
+
+.order__summary__icon {
+	margin-right: 1em;
+}
+.order__summary__illustration {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.order__summary__title,
+.order__summary__para {
+	text-align: center;
+}
+
+.order__summary__title {
+	font-size: 2rem;
+	font-weight: 900;
+	color: hsl(223, 47%, 23%);
+	margin: 1.5em 0 1em;
+}
+
+.order__summary__para {
+	margin: 0 auto;
+	font-size: 1.6rem;
+	width: 80%;
+	color: hsl(224, 23%, 55%);
+}
+
+.order__summary__pricing {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: hsl(225, 100%, 98%);
+	width: 85%;
+	margin: 2em auto;
+	padding: 1em 1em;
+	border-radius: 10px;
+}
+
+.order__summary__link {
+	margin-left: 2em;
+}
+
+.order__summarry__link a {
+	font-size: 1.3rem;
+	font-weight: 900;
+	color: hsl(245, 75%, 52%);
+}
+
+.order__summary__plan__title {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+.order__summary__plan__price {
+	font-size: 1.5rem;
+	color: hsl(224, 23%, 55%);
+	margin-top: 0.2em;
+}
+
+.order__summary__pay {
+	padding: 0.8em 5em;
+	background-color: hsl(245, 75%, 52%);
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 0.7em;
+}
+
+.order__summary__cancel {
+	margin: 2em auto;
+	display: block;
+	border: none;
+	background-color: transparent;
+	font-weight: 900;
+	color: hsl(224, 23%, 55%);
+	font-size: 1.3rem;
+}
+.order__summary__pay:hover,
+.order__summary__cancel:hover {
+	cursor: pointer;
+}
+
+.attribution {
+	font-size: 1.1rem;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.attribution a {
+	color: #595959;
+}
+
+.attribution a:hover {
+	color: #190eb8;
+}
+
+.attribution__designer,
+.attribution__programmer {
+	font-size: 1.2rem;
+	margin-top: 1em;
+}

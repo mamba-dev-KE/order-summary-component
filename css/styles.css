@@ -16,7 +16,10 @@ body {
 }
 
 main {
-	background-color: hsl(224, 100%, 92%);
+	background-image: url("/images/pattern-background-mobile.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 25%;
+	background-color: hsl(225, 100%, 94%);
 	height: 100vh;
 	position: relative;
 }
@@ -50,6 +53,8 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
+	-webkit-box-shadow: 0px 20px 19px 1px hsl(229, 74%, 88%);
+	box-shadow: 0px 20px 19px 1px hsl(229, 74%, 88%);
 }
 
 .order__summary__icon {
@@ -99,6 +104,9 @@ img {
 	font-weight: 900;
 	color: hsl(245, 75%, 52%);
 }
+.order__summarry__link a:hover {
+	color: hsl(245, 83%, 68%);
+}
 
 .order__summary__plan__title {
 	font-size: 1.5rem;
@@ -112,15 +120,17 @@ img {
 }
 
 .order__summary__pay {
-	padding: 0.8em 5em;
+	padding: 1.5em 7.3em;
 	background-color: hsl(245, 75%, 52%);
 	display: block;
 	margin: 0 auto;
 	color: #fff;
 	border: none;
 	border-radius: 10px;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 0.7em;
+	-webkit-box-shadow: 0px 20px 19px 1px #e1ddf9;
+	box-shadow: 0px 20px 19px 1px #e1ddf9;
 }
 
 .order__summary__cancel {
@@ -135,6 +145,13 @@ img {
 .order__summary__pay:hover,
 .order__summary__cancel:hover {
 	cursor: pointer;
+}
+
+.order__summary__pay:hover {
+	background-color: hsl(245, 83%, 68%);
+}
+.order__summary__cancel:hover {
+	color: hsl(223, 47%, 23%);
 }
 
 .attribution {
@@ -155,4 +172,12 @@ img {
 .attribution__programmer {
 	font-size: 1.2rem;
 	margin-top: 1em;
+}
+
+@media only screen and (min-width: 1024px) {
+	main {
+		background-image: url("/images/pattern-background-desktop.svg");
+		background-size: 100% 48%;
+		background-repeat: no-repeat;
+	}
 }

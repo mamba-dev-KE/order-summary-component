@@ -24,7 +24,7 @@ To translate the designs into a website with hover states included for interacti
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+[screenshot.png](https://postimg.cc/9r9Sf5TY)
 
 ### Links
 

@@ -40,8 +40,6 @@ To translate the designs into a website with hover states included for interacti
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ## Author
 
 - Website - [Joseph Maramba Weyao](https://resume-portfolio-sigma.vercel.app/)

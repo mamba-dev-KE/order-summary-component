@@ -10,9 +10,7 @@ This is a solution to the [order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +25,7 @@ To translate the attached designs into a website with hover states included for 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/mamba-dev-KE/order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://competent-jackson-729bd1.netlify.app/)
 
 ## My process
 
@@ -35,7 +33,7 @@ To translate the attached designs into a website with hover states included for 
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Flexbox
 - Mobile-first workflow
 
 ## Author

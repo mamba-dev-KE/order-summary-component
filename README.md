@@ -36,7 +36,7 @@ To translate the attached designs into a website with hover states included for 
 - CSS Flexbox
 - Mobile-first workflow
 
-## Author
+## Authors
 
 - Website - [Joseph Maramba Weyao](https://resume-portfolio-sigma.vercel.app/)
 - Frontend Mentor - [@mamba-dev-KE](https://www.frontendmentor.io/profile/mamba-dev-KE)

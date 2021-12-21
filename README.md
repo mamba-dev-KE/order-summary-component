@@ -25,7 +25,7 @@ To translate the attached designs into a website with hover states included for 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/mamba-dev-KE/order-summary-component)
-- Live Site URL: [Add live site URL here](https://competent-jackson-729bd1.netlify.app/)
+- Live Site URL: [Visit here](https://competent-jackson-729bd1.netlify.app/)
 
 ## My process
 
